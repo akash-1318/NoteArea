@@ -123,3 +123,13 @@ form button:hover {
   transition: 0.3s ease-in-out;
   transform: scale(1.3);
 }
+
+@media only screen and (max-width : 450px){
+  #header{
+    margin-right: -500px
+  }
+  .create-note{
+    width: 90%;
+    margin : 30px auto 30px auto;
+  }
+}
